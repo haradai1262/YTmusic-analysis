@@ -1,0 +1,6 @@
+.ipynb_checkpoints
+.DS_Store
+tmp
+_tmp
+notebook_output
+fasttext_model
