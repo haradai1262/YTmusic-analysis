@@ -68,4 +68,4 @@ RUN pip install papermill
 RUN pip install joblib
 
 CMD jupyter-lab --no-browser \
-  --port=8899 --ip=0.0.0.0 --allow-root
+  --port=8888 --ip=0.0.0.0 --allow-root

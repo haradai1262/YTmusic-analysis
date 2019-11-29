@@ -5,5 +5,7 @@ services:
         volumes:
             - ../:/workspace
             - ../data:/data
+            - /mnt/sda1/Dropbox/data/secret:/secret
+            - /mnt/sda1/Dropbox/data/private/youtube:/youtube
         ports:
             - "8888:8888"
